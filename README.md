@@ -1,2 +1,2 @@
 # Git-Github
-notes related git & github
+notes related git & github.
