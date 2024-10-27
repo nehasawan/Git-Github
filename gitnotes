@@ -1,0 +1,69 @@
+Git: Tool/sw 
+-which run on computer/system
+-version control system
+-is a tools that helps to track changes in code.
+-free & open source
+
+1. to track history of code. like adding featuring, adding button.
+2. to collaborate team- means in a project,in a team so many developers are working and they are working on different feature so there work should not get overwrite. so we need sw to identify who is working on what.
+
+GitHub: Website
+-website that allows deveopers to store and manage their code using git.
+-commit- changes
+-two things are there: add & commit
+
+GitHub Practical 1 - adding, commit
+1. create repo
+- name -> add readme file
+2. commit changes
+-you can add anything in readme file(edit icon to change)
+-you can see changes committed or not (updates)
+-you can use html tag.
+
+Git practical 2 - setting up Git on system
+1. download sw
+-visual studio code
+-git bash for windows
+-Terminal for Mac
+
+2. to check which version we have downloaded
+- Run command git --version on git bash/terminal
+
+3.configurinh Git- 
+configuring means to which account we are going to make changes
+-root directory/ primary folder ~
+
+git config --global user.name "nehasawan"
+git config --global user.email "nehasawant719@gmail.com"
+git config --list
+
+4. Clone & Status:
+a)Cloning: cloning repo on our local machine
+
+remote- on GitHub
+local- laptop/pc
+
+-we use cloning when we want to copy files from remote to local
+git clone https://github.com/nehasawan/Git-Github.git
+
+go inside folder:
+cd foldername
+
+to check all files inside folder:
+ls 
+
+to check all hiddent files store in folder
+ls -a
+
+b)status: display ths status of code
+git status
+
+-untracked: new files that gitt doesn't yet tacked
+-modified: changed
+-staged: files are added now u can commit
+-unmodified:unchanged
+
+
+5. Add & commit:
+a) add: add new or unchanged files in your working directory to the git staging area.
+git add "filename"
