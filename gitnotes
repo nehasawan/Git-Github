@@ -58,7 +58,7 @@ ls -a
 b)status: display ths status of code
 git status
 
--untracked: new files that gitt doesn't yet tacked
+-untracked: new files that gitt doesn't yet tracked
 -modified: changed
 -staged: files are added now u can commit
 -unmodified:unchanged
@@ -80,4 +80,21 @@ git push origin main
 
 origin means- on remote there is default repo i.e
 main - its branch inside this branch we push files
+
+
+------------------------------------------------------
+from git
+create a new repository on the command line
+echo "# hth" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nehasawan/hth.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/nehasawan/hth.git
+git branch -M main
+git push -u origin main
 
