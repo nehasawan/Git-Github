@@ -98,3 +98,30 @@ git remote add origin https://github.com/nehasawan/hth.git
 git branch -M main
 git push -u origin main
 
+
+-------------------------------------------------------
+Problem:
+I was not able to add ppt from local to remote so i decide to clone file from remote to local.
+
+Clone repo from remote to local to add files.
+1. copy url of repo.
+git clone https://github.com/nehasawan/AWS-Certification.git 
+
+2.Once you clone repo on local. add all the files in newly clone repo.
+3.go inside folder using cd command. check all files using ls command.
+
+cd foldername
+ls
+
+4. check git status, add, commit, push
+git staus
+git add . 
+git branch
+git commit -m 'done'
+git push
+
+5.refresh page in github.
+
+
+
+
